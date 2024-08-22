@@ -19,7 +19,7 @@ class SegmentationNetwork(nn.Module):
         down_stride=2,
         drop_rate=0.0,
         drop_path_rate=0.0,
-        use_layer_scale=True,
+        use_layer_scale=False,
         layer_scale_init_value=1e-5,
         inference_mode=False,
         head_dim=64,

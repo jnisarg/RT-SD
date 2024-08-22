@@ -72,6 +72,7 @@ if __name__ == "__main__":
         mlp_ratios=[3, 3, 3, 3],
         downsamples=[True, True, True, True],
         head_dim=64,
+        use_layer_scale=False,
     )
 
     # Reparameterize the model
